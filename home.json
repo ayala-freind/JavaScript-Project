@@ -1,0 +1,33 @@
+{
+    "games": [
+        {
+            "name": "dragame",
+            "for_search":"dragameage3DRAGAMEgameGAMEגיל3גרירהמשחק",
+            "age": "3",
+            "img": "./colors.png",
+            "link": "./drag.html"
+        },
+        {
+            "name": "guess",
+            "for_search":"gussGUASSage 10gameGAMEניחוש מיליםמשחקגיל=",
+            "age": "10",
+            "img": "./guess.png",
+            "link": "./guess.html"
+        },
+        {
+            "name": "תפוס`תריבוע",
+            "for_search":"catch the squareCATCH THE SQUARE GAMEage 6gameתפוס ת'ריבועמשחקגיל 6",
+            "age": "6",
+            "img": "./sq.png",
+            "link": "./squres.html"
+        },
+        {
+            "name": "2048",
+            "for_search":"2048age 12GAMEgameמשחקגיל 12",
+            "age": "12",
+            "img": "./twog.png",
+            "link": "./2048.html"
+        }
+
+    ]
+}

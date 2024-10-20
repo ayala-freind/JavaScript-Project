@@ -1,0 +1,32 @@
+#this_account {
+    color: rgb(252, 82, 227);
+}
+
+.links {
+    margin-right: 43%;
+
+}
+#first_link{
+ margin-top: -10%;
+}
+#second_link{
+    margin-top: 3%;
+}
+
+
+.home-background {
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding-top: 25px !important;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../רקע.jpg);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -20%;
+}
+
+.container {
+    margin-top: 20%;
+}

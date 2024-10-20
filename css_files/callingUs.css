@@ -1,0 +1,152 @@
+
+
+.home-background {
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding-top: 25px !important;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../רקע.jpg);
+}
+
+#callingUs {
+    color: rgb(252, 82, 227);
+}
+
+#first_name {
+    margin-right: 40%;
+    margin-top: -40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: large;
+    color: rgb(252, 82, 227);
+}
+
+#first_name_inputs {
+    height: 4vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image: -webkit-linear-gradient(rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(138, 111, 245))1;
+    animation: rotate 2.5s ease-in infinite;
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(138, 111, 245)) 1;
+
+    }
+}
+
+#password {
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: large;
+    color: rgb(252, 82, 227);
+
+
+}
+
+#password_input {
+    height: 4vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image: -webkit-linear-gradient(rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(138, 111, 245))1;
+    animation: rotate 2.5s ease-in infinite;
+
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(138, 111, 245)) 1;
+
+    }
+}
+
+#email {
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: large;
+    color: rgb(252, 82, 227);
+}
+
+#email_input {
+    height: 4vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image: -webkit-linear-gradient(rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(135, 229, 241))1;
+    animation: rotate 2.5s ease-in infinite;
+
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, rgb(216, 111, 126), rgb(248, 165, 11), rgb(138, 111, 245), rgb(139, 230, 236)) 1;
+
+    }
+}
+
+#subject {
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: large;
+    color: rgb(252, 82, 227);
+}
+
+#subject_input {
+    height: 8vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image: -webkit-linear-gradient(rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(135, 229, 241))1;
+    animation: rotate 2.5s ease-in infinite;
+
+}
+
+@keyframes rotate {
+    50% {
+        border-image: linear-gradient(360deg, rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(139, 230, 236)) 1;
+
+    }
+}
+
+form {
+    margin-top: -50%;
+    margin-bottom: 3%;
+}
+
+#enterSubmit {
+    border: 0px;
+    margin-right: 45%;
+    margin-top: 3%;
+    background-image: linear-gradient(57deg, rgb(225, 162, 44) 0%, rgb(247, 123, 142) 28.63%, rgb(105, 76, 223) 65%, rgb(142, 241, 165) 100%);
+    width: 200px;
+    height: 50px;
+    color:  #ffff;
+    font-size: xx-large;
+    /* text-align: center!important; */
+    border-radius: 10px 10px 10px;
+    font-family: math;
+    font-weight: bolder;
+    /* border: 4px 4px black; */
+}
+/* 
+#header{
+    margin-right: 134px;
+    text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important ;
+} */
+/* .modal{
+    --bs-modal-width: 680px ;
+    --bs-modal-height: 500px;
+} */
+#btn_startGame{
+    border: none;
+    background-color: white;
+}
+/* .modal-header{
+    border: none;
+} */

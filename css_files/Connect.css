@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Heebo-ExtraBold;
+    src: url(../fonts/Heebo-Black.ttf) format("opentype");
+}
+#this_account{
+    color: rgb(252, 82, 227);
+   
+}
+/* .links{
+margin-right: 590px;
+
+} */
+/* #first_link{
+    margin-top: -1000px;
+} */
+
+.btns{
+    margin-right: 1%;
+    margin-top: 7%;
+}
+
+#first_btn{
+    margin-right: 0%;
+}
+
+#fist_name {
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; 
+    font-size: large; 
+    color: rgb(252, 82, 227);
+   
+}
+
+#first_name_input{
+    height: 4vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image:-webkit-linear-gradient( rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(159, 235, 238))1;
+    animation:rotate 2.5s ease-in infinite;
+}
+@keyframes rotate{
+    50%{
+    border-image:linear-gradient(360deg,rgb(248, 165, 11),rgb(216, 111, 126),rgb(138, 111, 245),rgb(138, 111, 245)) 1;
+  
+    }
+}
+#password{
+    margin-right: 40%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; 
+    font-size: large; 
+    color: rgb(252, 82, 227); 
+}
+#password_input{
+    height: 4vh;
+    width: 20vw;
+    border-width: 3.5px;
+    border-image:-webkit-linear-gradient( rgb(248, 165, 11), rgb(216, 111, 126), rgb(138, 111, 245), rgb(159, 235, 238))1;
+    animation:rotate 2.5s ease-in infinite;
+
+}
+@keyframes rotate{
+    50%{
+    border-image:linear-gradient(360deg,rgb(248, 165, 11),rgb(216, 111, 126),rgb(138, 111, 245),rgb(138, 111, 245)) 1;
+  
+    }
+}
+
+#enterSubmit{
+    background-color:#ffff;
+border: 0px;
+margin-right: 45%;
+margin-top: 3%;
+}
+form{
+    margin-top: 7%;
+}

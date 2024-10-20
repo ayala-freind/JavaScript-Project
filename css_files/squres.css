@@ -1,0 +1,71 @@
+body {
+    background-image: url(./רקע.jpg);
+    background-size: 100%;
+}
+#nivut_square{
+    display: flex;
+    flex-direction: column;
+}
+#x_img {
+    width: 35px;
+    height: 35px;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+
+#logo_img {
+    size: 10%;
+    margin-right: 80%;
+    margin-top: 0.5%;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(232, 214, 182);
+    text-shadow: 2px 2px #000000;
+    margin-top: 0%;
+}
+#game-container {
+    margin-top: 6%;
+    margin-right: 41.5%;
+    width: 350px;
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+}
+
+.red {
+    background-color: rgb(216, 187, 216);
+}
+
+.blue{
+    background-color:rgb(220 246 235);
+}
+/* #op1{
+    font-size: xx-large;
+} */
+button {
+    padding: 15px;
+    /* margin-top: 10px; */
+    margin-right: 15px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#buttons{
+    margin-right: 15%;
+}
+#div_score{
+    /* margin-right: 25%; */
+    margin-top: 2%;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+

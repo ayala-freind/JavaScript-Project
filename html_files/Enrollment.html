@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_files/home.css">
+    <link rel="stylesheet" href="../css_files/nivutH.css">
+    <link rel="stylesheet" href="../font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="../css_files/Enrollment.css">
+    <link rel="shortcut icon" href="../עם לוגו.jpg" type="image/x-icon">
+    <title>Enrollment</title>
+</head>
+
+<body dir="rtl">
+    <div id="">
+        <div id="nivut_h">
+            <a href="./home.html" id="logo_img">
+                <img src="../לוגו.png">
+            </a>
+            <from id="search">
+                <input type="search" id="search_inp" placeholder="חיפוש משחק">
+                <button type="submit" onclick="search()" id="search_btn"><i class="fas fa-search"></i></button>
+            </from>
+
+            <div id="links">
+                <a href="./MyAccount.html" class="nivut_items " id="this_account">החשבון שלי</a>
+                <a class="nivut_items" href="./aboutUs.html">אודות</a>
+                <a class="nivut_items" href="./callingUs.html"> דברו אתינו</a>
+                <a href="#games" id="game_link"></a>
+            </div>
+        </div>
+
+    </div>
+    <img class="btns" id="first_btn" src="../פיצ'רים לפרויקט/איקונים וכפתורים/כפתורים/כפתור הרשמה.png"
+        width="170px">
+    <img class="btns" src="../פיצ'רים לפרויקט/איקונים וכפתורים/כפתורים/כפתור התחברות בשקיפות.png" width="170px">
+
+
+
+    <form name="form">
+
+        <div id="first_name" class="item">
+            שם:
+            <br>
+            <input type="text" id="name" class="inp" name="first_name" placeholder=" שם משתמש:" required>
+
+        </div>
+
+        <div id="password" class="item">
+            סיסמא
+            <br>
+            <input type="password" id="password_input" class="inp" name="password" placeholder=" סיסמא: " required>
+
+        </div>
+
+
+        <div id="email" class="item">
+            מייל
+            <br>
+            <input type="email" id="email_input" class="inp" name="email" placeholder=" מייל:" required>
+
+        </div>
+
+
+        <div id="id" class="item">
+            ת.ז.
+            <br>
+            <input type="text" id="id_input" class="inp" name="id" placeholder=" ת.ז.:" required>
+
+        </div>
+
+
+        <div id="age" class="item">
+            גיל
+            <br>
+            <input type="number" id="age_input" class="inp" name="age" placeholder=" גיל:" required>
+
+        </div>
+
+
+        <button id="enterSubmit" type="submit">
+            <img src="../פיצ'רים לפרויקט/איקונים וכפתורים/כפתורים/כפתור הרשמה.png" width="150px">
+        </button>
+
+    </form>
+
+</body>
+<script src="../js_files/Enrollment.js"></script>
+
+</html>

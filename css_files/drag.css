@@ -1,0 +1,104 @@
+body {
+    background-image: url(../רקע.jpg);
+    background-size: 100%;
+}
+#nivut_drag{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(232, 214, 182);
+    text-shadow: 2px 2px #000000;
+    margin-top: 0%;
+}
+
+#continer {
+    /* margin-top: 5%; */
+    margin-right: 0%;
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:35%;
+    padding-top:1.5%;
+
+}
+
+.squre_one {
+    flex-wrap: wrap;
+    width: 129px;
+    height: 129px;
+    border: 1px solid #000000;
+}
+
+.squre_two {
+    flex-wrap: wrap;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #000000;
+}
+
+.squre_three {
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+}
+
+button {
+    padding: 15px;
+    /* margin-top: 10px; */
+    margin-right: 1%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+#btns {
+    /* margin-right: 600px; */
+    margin-right: 30%;
+}
+
+#x_img {
+    width: 35px;
+    height: 35px;
+    margin-right: 1%;
+    margin-top: 0.5%;
+}
+
+#imagess {
+    background-color: #ffff;
+}
+
+#logo_img {
+    size: 10%;
+    margin-right: 80%;
+    margin-top: 0.5%;
+}
+
+img {
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#chetz {
+    margin: 0px;
+    margin-bottom: -4px;
+}
+
+.squre-color {
+
+    width: 64px;
+    height: 64px;
+    border: 1px solid #000000;
+    margin-right: 50%;
+}
+
+#eraser {
+    margin-right: 1% !important;
+    width: 64px;
+    height: 64px;
+    font-size: xx-large;
+}

@@ -1,0 +1,69 @@
+
+.home-background {
+    width:100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding-top: 25px !important;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../רקע\ לדף\ הבית.jpg);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+h4 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: 3px 3px #f6afaf;
+}
+.game1{
+/* align-items: center; */
+text-align: center;
+text-decoration: none;
+font-size: xx-large;
+color: black;
+padding-right: 0%;
+
+   
+}
+#game2048{
+
+    width: 28%;
+    /* margin-right: 0%; */
+    
+
+}
+#gameguess{
+    width: 57%;
+    margin-right: 10%;
+}
+#gamecatchSqure{
+
+    width: 93%;
+    /* margin-left: -41%; */
+}
+#gamedragame{
+    width: 70%;
+}
+#game{
+   display: flex;
+   flex-wrap: nowrap;  
+}
+#all_games{
+    border: 0px;
+    margin-right: 45%;
+    margin-top: 3%;
+    width: 200px;
+    height: 50px;
+  color: #f6afaf;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px 10px 10px;
+    font-family: math;
+    font-weight: bolder;
+    border: 12px 12px black;
+    background-color: #000000;
+}
+

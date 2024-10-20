@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_files/home.css">
+    <link rel="stylesheet" href="../css_files/nivutH.css">
+    <link rel="stylesheet" href="../font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="shortcut icon" href="../עם לוגו.jpg" type="image/x-icon">
+    <script src="../jquery-3.6.0.min.js"></script>
+    <title>Game Start</title>
+</head>
+
+<body dir="rtl">
+    <div class="home-background">       
+        <div id="nivut_h">
+            <a href="./home.html" id="logo_img">
+                <img src="../לוגו.png">
+            </a>
+            <p id="hello_user"> שלום <span id="hello" class="nivut_items">אורח </span>🤪</p>
+        
+            <form id="search">
+                <input type="search" id="search_inp" placeholder="חיפוש משחק">
+                <button type="submit" onclick="search()" id="search_btn"> <i class="fas fa-search"></i></button>
+            </form>
+
+            <div id="links">
+                <a href="./MyAccount.html" class="nivut_items">החשבון שלי</a>
+                <a class="nivut_items" href="./aboutUs.html">אודות</a>
+
+                <a class="nivut_items" href="./callingUs.html">דברו איתנו</a>
+                <a href="#games" id="game_link"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="games">
+        <h4>our games</h4>
+        <!-- <a></a> -->
+        <div id="game">
+            <p id="name"></p>
+            <a id="link">
+                <img id="img" />
+            </a>
+        </div>
+        <button id="all_games">לכל המשחקים </button>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h3 class="">על אתר המשחקים</h3>
+                    <p>באתר המשחקים הגדול של ישראל תמצאו משחקים בחינם מכל הסוגים: משחקי חידות ומשחקי מחשבה, משחקי
+                        הרפתקאות ומשחקי תפקידים, משחקי אקשן אונליין ומשחקי יריות, תוכלו ליהנות גם ממשחקי ספורט אונליין
+                        ומשחקי אסטרטגיה ומלחמה. אם אתם אוהבים קלאסיקות, תמצאו את עצמכם שוקעים במשחק סופר מריו, באבלס
+                        אונליין, או סוניק. מהמשחקים הפופולריים שלנו תוכלו למצוא גם: שש בש, שולה זהב, טקסס הולדם,
+                        בובספוג, משחקי חניה ועוד. משחקים ברשת זה GAMEZOO!</p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h3 class="">משחקי אונליין בחינם</h3>
+                    <p>אתר משחקי אונליין בחינם מבית קבוצת אתרי ג.ע.ש.</p>
+                    <p>כאן תוכלו לשחק אונליין בחינם במשחקי רשת פופולריים. אנחנו בוחרים משחקים חדשים בשבילכם כמעט כל יום,
+                        כדי שתוכלו לעשות כמה שיותר כיף! וליהנות ממשחקי ספורט חדשים, משחקי מירוצים הטובים ביותר ברשת,
+                        משחקי בנות, משחקי קלאסיקה כמו באבלס אונליין, משחקי ארקייד חינם ועוד.</p>
+                    <p>האתר מיועד לגילאי 18+. המשחקים נבדקים על ידי צוות אתר GAMEZOO והם פועלים בנייד ובמחשב.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="">צרו קשר</h3>ניתן ליצור עימנו קשר טלפוני:
+                    <br>
+                    04-6407590
+                    <br><br>
+                    או באמצעות הדואר האלקטרוני:
+                    <br>
+                    contact-us@gamezoo.co.il
+                    <br><br>
+                    <a id="_blank" href="./callingUs.html">
+                        או באתר
+                    </a>
+                    <!-- <font color="#FFFFFF">תנאי שימוש ותקנון האתר</font></a>			 -->
+                </div>
+            </div>
+        </div>
+
+</body>
+<script src="../js_files/home.js"></script>
+
+</html>

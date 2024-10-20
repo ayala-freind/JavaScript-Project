@@ -1,0 +1,116 @@
+#nivut_h {
+    display: flex;
+    flex-shrink: initial;
+    margin-bottom: inherit;
+}
+
+.nivut_items {
+    margin-right: 20px;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: -1000px;
+}
+
+#links {
+    display: flex;
+    margin-right: 20%;
+}
+
+#game_link {
+    margin-top: 230px;
+    margin-right: -900px;
+    width: 300px;
+    height: 200px;
+}
+
+#hello_user {
+    margin-right: 8%;
+    font-size: x-large;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+#logo_img {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+#hello {
+    margin-right: 0%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+#search_inp {
+    font-size: medium;
+}
+
+
+#search_btn {
+    font-size: medium;
+}
+
+#search {
+    display: flex;
+    border-radius: 7px;
+    width: 180px;
+    height: 24px;
+    background: none;
+    margin-top: 12px;
+    font-weight: bolder;
+    color: black;
+    margin-right: 15%;
+    margin-left: -15%;
+}
+
+.container {
+    background-image: linear-gradient(57deg, rgb(233, 208, 163) 0%, rgb(240, 166, 177) 28.63%, rgb(162, 142, 241) 65%, rgb(142, 241, 165) 100%);
+    color: #ffff;
+    color: black;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin-bottom: -10%;
+    margin-top: 10%;
+    box-shadow: rgb(140, 140, 140) 10px 10px 14px;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: large;
+}
+
+.mb-lg-0,
+.my-lg-0 {
+    margin-bottom: 0 !important;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-right: 25px;
+}
+
+h3 {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    margin-top: 0;
+    text-align: center;
+    font-size: x-large
+}
+
+#_blank {
+    color: black;
+}
